@@ -65,5 +65,7 @@ echo $RefUmur->invoke($CekHidup);
 echo "\nStatus \t\t\t:";
 echo $RefStatus->invoke($CekHidup);
 
+echo "\n";
+var_dump($RefCek->getMethods());
 ?>
 
